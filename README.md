@@ -1,4 +1,4 @@
-# Orange Pi 5 Plus fan pwm control fix
+# Orange Pi 5 Plus fan PWM direct control fix
 
 ## What is this?
 This repo contains overlay for Orange Pi 5 Plus (vendor image, armbian) that allows to disable vendor fan driver and assume direct control over PWM chip 0, that is responsible .
