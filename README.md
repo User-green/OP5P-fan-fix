@@ -21,7 +21,7 @@ Reboot.
 
 ## How to control PWM via /sys?
 
-You can find basic instruction in file `set-fan-to-max.sh`.
+You can find basic instruction in file `clear_fan.sh`.
 
 
 ## What is next?
