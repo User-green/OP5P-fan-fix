@@ -1,0 +1,14 @@
+/dts-v1/;
+
+
+
+/ {
+	compatible = "rockchip,rk3588-orangepi-5-plus\0rockchip,rk3588";
+	fragment@0 {
+		target-path = "/pwm-fan";
+		__overlay__ {
+			status = "disabled";
+		};
+
+	};
+};

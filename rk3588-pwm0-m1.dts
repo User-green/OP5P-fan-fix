@@ -1,0 +1,18 @@
+/dts-v1/;
+
+/ {
+
+	fragment@0 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+			status = "okay";
+			pinctrl-0 = <0xffffffff>;
+		};
+	};
+
+	__fixups__ {
+		pwm0 = "/fragment@0:target:0";
+		pwm0m1_pins = "/fragment@0/__overlay__:pinctrl-0:0";
+	};
+};
