@@ -31,5 +31,5 @@ Write your own fan manager, or repurpuse one of the ready-made ones. Most of the
 ## How to contribute?
 
 1. If you have written half-way dicent power manager - please, let me know. I will include it into the repo.
-2. Open issue if you find any bugs.
+2. Open issue if it doesnt work on your Pi.
 3. Open issue if you have any ideas regarding this topic. 
